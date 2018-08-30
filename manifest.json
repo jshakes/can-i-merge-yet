@@ -1,5 +1,5 @@
 {
-	"name": "Can I merge",
+	"name": "Can I merge?",
 	"version": "0.1",
 	"description": "Shows at a glance which of your PRs are ready to merge",
 	"manifest_version": 2,
