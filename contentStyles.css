@@ -1,0 +1,24 @@
+.cim__pr {
+	position: relative;
+}
+
+.cim__pr:before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 6px;
+	left: 0;
+	top: 0;
+}
+
+.cim__pr--approved:before {
+	background-color: #28a745;
+}
+
+.cim__pr--denied:before {
+	background-color: #e40017;
+}
+
+.cim__pr--pending:before {
+	background-color: #d5ad23;
+}
